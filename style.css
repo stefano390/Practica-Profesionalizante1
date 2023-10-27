@@ -1,16 +1,19 @@
+/*Estabblece el color de fondo del cuerpo*/
 body{
     background-color:aliceblue;  /*agrego color al fondo*/
 }
-
+/*Define el estilo del texto*/
 .texto{
+    /*Propiedades de texto*/
     color: black;
     text-align: center;
     font-size:xx-large;
     font-family: 'Courier New', Courier, monospace;
  
 }
-
+/*Define el estilo del titulo*/
 .titulo{
+/*Propiedades de titutlo*/    
     font-family:Georgia, 'Times New Roman', Times, serif; /*fuente de letra*/
     color:black;
     border-style : solid;
@@ -20,17 +23,18 @@ body{
     text-align: center;
     background-color: lightblue;
 }
-
-.center {   /* centrar imagen */ 
+/*Clase para centrar una imagen*/
+.center {   /* centrar la imagen horizontal y verticalmente*/ 
     display:flex;
     justify-content: center;
     align-items: center;
 }
-
+/*Estilo para el identificador "dqrata"*/
 #dqtrata{
-color:black;
-text-decoration: underline; /*subrayamos la palabra de que trata esto (en el index principal) */
+    color:black;
+    text-decoration: underline; /*subrayamos la palabra de que trata esto (en el index principal) */
 }
+/*Define el estilo del texto de recetas*/
 .textorecetas{
     color:lightcoral;
     text-align: left;

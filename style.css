@@ -33,6 +33,7 @@ body{
 #dqtrata{
     color:black;
     text-decoration: underline; /*subrayamos la palabra de que trata esto (en el index principal) */
+
 }
 /*Define el estilo del texto de recetas*/
 .textorecetas{
@@ -40,4 +41,22 @@ body{
     text-align: left;
     font-size:large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.contenido {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos*/
+    text-align: center;
+}
+
+.contenido-texto {
+    flex: 1; /* Toma todo el espacio restante */
+    padding: 20px; /* Espacio entre el texto y la imagen*/
+    margin-right:20px ;
+}
+
+.contenido-imagen {
+    margin-right: 600px; /* Espacio entre el texto y la imagen */
+}
+.pie-pagina {
+    text-align: center;
 }

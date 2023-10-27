@@ -1,0 +1,39 @@
+body{
+    background-color:aliceblue;  /*agrego color al fondo*/
+}
+
+.texto{
+    color: black;
+    text-align: center;
+    font-size:xx-large;
+    font-family: 'Courier New', Courier, monospace;
+ 
+}
+
+.titulo{
+    font-family:Georgia, 'Times New Roman', Times, serif; /*fuente de letra*/
+    color:black;
+    border-style : solid;
+    border-color:black ;
+    border-radius: 6px;
+    border-width: 2px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.center {   /* centrar imagen */ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dqtrata{
+color:black;
+text-decoration: underline; /*subrayamos la palabra de que trata esto (en el index principal) */
+}
+.textorecetas{
+    color:lightcoral;
+    text-align: left;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

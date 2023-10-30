@@ -63,8 +63,11 @@ body{
     justify-content: space-between; /* Para separar los elementos en la misma línea */
 }
 p{  /*Aumentamos el tamaño de letre de todos los <p>*/
-    font-size: 24px;
+    font-size: 22px;
     font-family: "Arial", Arial, Helvetica, sans-serif
+}
+h1{
+    margin-bottom: 25px;
 }
 .container-imc{
     width: 600px;
@@ -74,8 +77,50 @@ p{  /*Aumentamos el tamaño de letre de todos los <p>*/
     text-align: center;
     color: rgb(11,12,12);
     border-radius: 60px;
-    
+    border-style:groove;
+    border-width: 30px;
+    border-color: lightcoral;
   }
+#calculator{
+    margin-bottom:20px;
+}
+input[type="number"]{
+    padding: 10px;
+    margin-right: 10px;
+    width: 150px;
+    font-size: 22px;
+    border:3px solid lightcoral;
+}
+button{
+    padding:10px 20px;
+    background-color:#add8e6;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 22px;
+}
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 8px;
+    border: 3px solid lightcoral;
+    font-size: 22px;
+}
+th{
+    background-color: lightcoral;
+    color: white;
+}
+tbody tr:nth-child(even){ /*Con esta linea lo que logro es que se pinte un recuadro de por medio*/
+    background-color: lightcoral; 
+}
 *{
     margin: 0;
     padding: 0;
@@ -87,7 +132,7 @@ p{  /*Aumentamos el tamaño de letre de todos los <p>*/
 .container{
     width: 100%;
     height: 40vh;
-    background-color:#add8e6;
+    background-color: #add8e6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,7 +143,7 @@ p{  /*Aumentamos el tamaño de letre de todos los <p>*/
     }
 
 .form-content {
-    width: 100;
+    width: 100%;
     max-width: 450px;
     background-color: lightcoral;
     padding: 50px 60px 70px;
@@ -111,7 +156,7 @@ p{  /*Aumentamos el tamaño de letre de todos los <p>*/
     border-radius: 3px;
     display: flex;
     align-items: center;
-    transition: max-height 05s;
+    transition: max-height 5s;
     overflow: hidden;
 }
 input{
@@ -124,6 +169,7 @@ input{
 }
 input::placeholder {
     color: black;
+    font-size: 16px;
 }
 
 .input-field i {
@@ -137,7 +183,7 @@ input::placeholder {
 }
 .btn-field button {
     flex-basis: 48px;
-    font-size: 16px;
+    font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
     height: 40px;
@@ -149,3 +195,4 @@ input::placeholder {
 .input-group{
     height: 150px;
 }
+

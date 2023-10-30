@@ -57,26 +57,26 @@
           
         <h1 id="title"> Ingrese Datos</h1>            
       
-          <form> 
+          <form method="post"> 
               <div class="input-group">
                   
-                  <div class="input-field">
+                  <div class="input-field" id="nameInput">
                       
                       <i class="fas fa-user"></i>
                       
-                      <input type="text" placeholder="Nombre"> <!-- El placeholder es lo que va a decir el input adentro -->
+                      <input type="text" name="name" placeholder="Nombre"><!-- El placeholder es lo que va a decir el input adentro -->
                   </div>
 
                   <div class="input-field">
                       
                       <i class="fas fa-envelope"></i>
                       
-                      <input type="email" placeholder="Correo"> 
+                      <input type="email" name="email" placeholder="Correo">
                   </div>
               
               </div>
                   <div class="btn-field">
-                      <button id="formSubmitButton" type="button">Enviar</button>
+                      <button id="formSubmitButton" type="submit">Enviar</button>
                   </div>   
 
           </form>
